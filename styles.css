@@ -1,0 +1,59 @@
+/** Colors
+
+- White: hsl(0, 0%, 100%)
+- Light gray: hsl(212, 45%, 89%)
+- Grayish blue: hsl(220, 15%, 55%)
+- Dark blue: hsl(218, 44%, 22%)
+
+## Typography
+
+### Body Copy
+- Font size (paragraph): 15px
+
+### Font
+- Family: [Outfit](https://fonts.google.com/specimen/Outfit)
+- Weights: 400, 700*/
+body{
+    /* background-color: hsl(220, 15%, 55%); */
+    background: hsl(212, 45%, 89%);
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+
+.qr-code-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    margin: 50px auto;
+    background: hsl(0, 0%, 100%);
+    width: 210px;
+    border-radius: 15px;
+    
+}
+
+
+
+
+.image-qr{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 15px;
+    margin-bottom: 24px;
+}
+
+.qr-bold-text{
+    font-weight: 700;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+    color: hsl(218, 44%, 22%);
+}
+
+.qr-normal-text{
+    font-weight: 400;
+    flex-wrap: wrap;
+    color: hsl(220, 15%, 55%);
+    margin-bottom: 20px;
+}
